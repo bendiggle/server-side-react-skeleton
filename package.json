@@ -1,0 +1,13 @@
+{
+  "name": "acca",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:bendiggle/acca.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

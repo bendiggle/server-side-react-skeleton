@@ -1,1 +1,1 @@
-# acca
+# server-side-react-skeleton

@@ -1,9 +1,7 @@
 'use strict';
 
-const path = require('path');
-
 module.exports = {
-    entry: `${__dirname}/app/js/index.jsx`,
+    entry: `${__dirname}/app/client.js`,
     output: {
         filename: "bundle.js",
         path: `${__dirname}/dist`,

@@ -5,15 +5,19 @@
   "repository": "git@github.com:bendiggle/acca.git",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "node_modules/.bin/babel-node --presets react,es2015 app.js"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "consolidate": "^0.14.5",
     "express": "^4.15.4",
     "mustache": "^2.3.0",
     "path": "^0.12.7",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
